@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.mixture import GaussianMixture, BayesianGaussianMixture
-from sdv.single_table import GaussianCopula, CTGAN, CopulaGAN, TVAE
+from sdv.single_table import GaussianCopulaSynthesizer, CTGANSynthesizer, CopulaGANSynthesizer, TVAESynthesizer
 import torch
 from sklearn.model_selection import KFold
 from sdv.evaluation import evaluate
